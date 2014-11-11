@@ -59,7 +59,6 @@ class SolidSolution(Mineral):
         self.excess_volume = self.solution_model.excess_volume( pressure, temperature, self.molar_fraction)
 
         self.V= sum([ self.base_material[i][0].V * self.molar_fraction[i] for i in range(self.n_endmembers) ]) + self.excess_volume
-
         
         '''
         for prop in self.base_materials[0].params:
