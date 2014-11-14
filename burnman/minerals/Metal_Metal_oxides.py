@@ -7,7 +7,7 @@ atomic_masses=read_masses()
 
 class Mo (Mineral):
     def __init__(self):
-       formula='Ni1.0'
+       formula='Mo1.0'
        formula = dictionarize_formula(formula)
        self.params = {
             'name': 'Mo',
@@ -26,7 +26,7 @@ class Mo (Mineral):
 
 class MoO2 (Mineral):
     def __init__(self):
-       formula='Ni1.0O2.0'
+       formula='Mo1.0O2.0'
        formula = dictionarize_formula(formula)
        self.params = {
             'name': 'MoO2',
@@ -45,7 +45,7 @@ class MoO2 (Mineral):
 
 class Re (Mineral):
     def __init__(self):
-       formula='Ni1.0'
+       formula='Re1.0'
        formula = dictionarize_formula(formula)
        self.params = {
             'name': 'Re',
@@ -64,7 +64,7 @@ class Re (Mineral):
 
 class ReO2 (Mineral):
     def __init__(self):
-       formula='Ni1.0O2.0'
+       formula='Re1.0O2.0'
        formula = dictionarize_formula(formula)
        self.params = {
             'name': 'ReO2',
@@ -83,7 +83,7 @@ class ReO2 (Mineral):
 
 class ReO3 (Mineral):
     def __init__(self):
-       formula='Ni1.0O3.0'
+       formula='Re1.0O3.0'
        formula = dictionarize_formula(formula)
        self.params = {
             'name': 'ReO3',
@@ -102,7 +102,7 @@ class ReO3 (Mineral):
 
 class Re2O7 (Mineral):
     def __init__(self):
-       formula='Ni2.0O7.0'
+       formula='Re2.0O7.0'
        formula = dictionarize_formula(formula)
        self.params = {
             'name': 'Re2O7',
@@ -121,7 +121,7 @@ class Re2O7 (Mineral):
 
 class Pt (Mineral):
     def __init__(self):
-       formula='Ni1.0'
+       formula='Pt1.0'
        formula = dictionarize_formula(formula)
        self.params = {
             'name': 'Pt',
@@ -140,7 +140,7 @@ class Pt (Mineral):
 
 class PtO2 (Mineral):
     def __init__(self):
-       formula='Ni1.0O2.0'
+       formula='Pt1.0O2.0'
        formula = dictionarize_formula(formula)
        self.params = {
             'name': 'PtO2',
