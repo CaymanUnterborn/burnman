@@ -96,6 +96,15 @@ def read_table(filename):
             table.append(numbers)
     return np.array(table)
 
+def read_table_tabs(filename):
+    datastream = pkgutil.get_data('burnman', 'data/'+filename)
+    datalines = [ line.strip() for line in datastream.decode('ascii').split('\r') if line.strip() ]
+    table=[]
+    for line in datalines:
+        if (line[0]!='#'):
+            numbers = np.fromstring( line , sep ='\t')
+            table.append(numbers)
+    return np.array(table)
 def array_from_file(filename):
     """
     Generic function to read a file containing floats and commented lines
